@@ -28,13 +28,23 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.only(top:32.0),
+              padding: EdgeInsets.only(top: 32.0),
               child: Center(
                 child: CircleAvatar(
                   radius: 60.0,
                   backgroundImage: AssetImage(
                     "assets/profile.jpg",
                   ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top:16.0),
+              child: Text(
+                "Manthan Gupta",
+                style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             )
