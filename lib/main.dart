@@ -39,13 +39,20 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top:16.0),
+              padding: EdgeInsets.only(top: 16.0),
               child: Text(
                 "Manthan Gupta",
                 style: TextStyle(
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold,
                 ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top:8.0),
+              child: Text(
+                "I am a Flutter App Developer \nstudying in Bennett University",
+                style: TextStyle(fontSize: 18.0),
               ),
             )
           ],
