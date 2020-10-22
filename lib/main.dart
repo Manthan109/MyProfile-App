@@ -49,12 +49,72 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top:8.0),
+              padding: EdgeInsets.only(top: 8.0),
               child: Text(
                 "I am a Flutter App Developer \nstudying in Bennett University",
                 style: TextStyle(fontSize: 18.0),
               ),
-            )
+            ),
+            Divider(
+              height: 30.0,
+              color: Colors.black,
+            ),
+            Row(
+              children: [
+                Column(
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(left: 16.0),
+                      child: Text(
+                        "Posts",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 20.0),
+                      ),
+                    ),
+                    Text(
+                      "35",
+                      style: TextStyle(fontSize: 16.0),
+                    )
+                  ],
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 64.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        "Followers",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 20.0),
+                      ),
+                      Text(
+                        "500",
+                        style: TextStyle(fontSize: 16.0),
+                      )
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 64.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        "Following",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 20.0),
+                      ),
+                      Text(
+                        "500",
+                        style: TextStyle(fontSize: 16.0),
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
+            Divider(
+              height: 30.0,
+              color: Colors.black,
+            ),
           ],
         ),
       ),
