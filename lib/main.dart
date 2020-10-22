@@ -115,6 +115,16 @@ class MyHomePage extends StatelessWidget {
               height: 30.0,
               color: Colors.black,
             ),
+            RaisedButton(
+              elevation: 0,
+              onPressed: () => print("Following"),
+              child: Text(
+                "Follow",
+                style: TextStyle(color: Colors.white),
+              ),
+              color: Colors.lightBlue,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+            )
           ],
         ),
       ),
